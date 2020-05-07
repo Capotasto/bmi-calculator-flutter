@@ -1,7 +1,8 @@
 import 'package:bmi_calculator/PlusMinus.dart';
-import 'package:bmi_calculator/result_page.dart';
+import 'package:bmi_calculator/result/result_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'bottom_button.dart';
 import 'constants.dart';
 import 'gender.dart';
 import 'gender_widget.dart';
@@ -152,8 +153,9 @@ class _InputPageState extends State<InputPage> {
               ],
             ),
           ),
-          GestureDetector(
-            onTap: () {
+          BottomButton(
+            btnText: 'CALCULATE!!',
+            onPressed: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(
@@ -161,20 +163,6 @@ class _InputPageState extends State<InputPage> {
                 ),
               );
             },
-            child: Container(
-              color: kBottomContainerColor,
-              height: kBottomContainerHeight,
-              width: double.infinity,
-              padding: EdgeInsets.only(top: 16.0),
-              child: Text(
-                'CALCULATE!!',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 24.0,
-                ),
-                textAlign: TextAlign.center,
-              ),
-            ),
           ),
         ],
       ),
