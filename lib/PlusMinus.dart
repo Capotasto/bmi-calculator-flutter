@@ -28,7 +28,7 @@ class PlusMinus extends StatelessWidget {
           style: kLabelNumberStyle,
         ),
         SizedBox(
-          height: 16.0,
+          height: 12.0,
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
