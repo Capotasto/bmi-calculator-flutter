@@ -6,7 +6,7 @@
 ## What I achieved
 |iOS|Android|
 |---|---|
-|https://github.com/Capotasto/bmi-calculator-flutter/blob/master/assets/bmi-ios.gif|https://github.com/Capotasto/bmi-calculator-flutter/blob/master/assets/bmi-android.gif|
+|![bmi-ios](https://github.com/Capotasto/bmi-calculator-flutter/blob/master/assets/bmi-ios.gif)|![bmi-android](https://github.com/Capotasto/bmi-calculator-flutter/blob/master/assets/bmi-android.gif)|
 
 ## Our Goal
 
